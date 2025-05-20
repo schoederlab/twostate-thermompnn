@@ -6,3 +6,4 @@ Stabilization of viral glycoproteins in prefusion conformation using ThermoMPNN 
 
 ![graphical-abstract](https://github.com/user-attachments/assets/11dfff04-20c3-439e-81de-6b01be99f8c0)
 
+WORK IN PROGRESS
