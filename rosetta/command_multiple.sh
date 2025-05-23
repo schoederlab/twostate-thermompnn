@@ -22,7 +22,7 @@ for mut in "${mutations[@]}"; do
     mutaa=${mut#*_}
 
     # Run the command
-    /home/iwe54/rosetta/main/source/bin/rosetta_scripts.static.linuxgccrelease \
+    /PATH/TO/YOUR/ROSETTA/main/source/bin/rosetta_scripts.static.linuxgccrelease \
         -parser:protocol design.v02.xml \
         -parser:script_vars mutpos=${mutpos} mut_aa=${mutaa} protocol=${protocol} symfile=${inputpdb} \
         -in:file:s ${inputsym} \
