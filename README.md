@@ -24,9 +24,7 @@ This function is defined as:
 
 <p align="center">
 $S = ∆∆G + λ × max⁡(0, ∆G_{prefusion} - ∆G_{threshold})$
-
 $λ=10$
-
 $∆G_{threshold} = 0.2 kcal/mol$
 </p>
 
