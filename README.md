@@ -40,5 +40,13 @@ twostate-thermompnn/
 └── data/ # containes the raw computational data that is analyzed in the paper
 ```
 
-Note: the scripts are optimized for viral glycoproteins, which are multimeric proteins. For the biopyhsical analysis, you need to create a symmetry file beforehand.
+Note: the scripts are optimized for viral glycoproteins, which are multimeric proteins. For the biopyhsical analysis, you need to create a symmetry file beforehand. 
+**This repository just describes how the data was analyzed.**
+For ThermoMPNN predictions, please visit: https://github.com/Kuhlman-Lab/ThermoMPNN
 
+---
+## necessary packages for the analysis
+
+```
+pip install pandas numpy seaborn matplotlib
+```
