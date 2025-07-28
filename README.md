@@ -23,9 +23,11 @@ Since the ΔΔG-based difference calculation is not sensitive to slightly destab
 This function is defined as:
 
 <p align="center">
-$S = ∆∆G + λ × max⁡(0, ∆G_{prefusion} - ∆G_{threshold})$
-$λ=10$
-$∆G_{threshold} = 0.2 kcal/mol$
+    $S = ∆∆G + λ × max⁡(0, ∆G_{prefusion} - ∆G_{threshold})$
+    
+    $λ=10$
+    
+    $∆G_{threshold} = 0.2 kcal/mol$
 </p>
 
 with λ being a weighting factor and ∆G_threshold represents a destabilizing tolerance threshold. This formulation penalizes mutations that increased the free energy of the pre-fusion state beyond the defined threshold.
