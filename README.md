@@ -16,13 +16,14 @@ The difference map are calculated with:
 
 $∆∆G = ∆G_{prefusion} - ∆G_{postfusion}$
 
-
 Since the ΔΔG-based difference calculation is not sensitive to slightly destabilizing mutations in the pre-fusion conformation, we introduced a scoring function to more effectively prioritize stabilizing mutations. 
 
 This function is defined as:
 
 $S = ∆∆G + λ ×max⁡(0, ∆G_{prefusion} - ∆G_{threshold})$
+
 $λ=10$
+
 $∆G_{threshold} = 0.2 kcal/mol$
 
 with λ being a weighting factor and ∆G_threshold represents a destabilizing tolerance threshold. This formulation penalizes mutations that increased the free energy of the pre-fusion state beyond the defined threshold.
